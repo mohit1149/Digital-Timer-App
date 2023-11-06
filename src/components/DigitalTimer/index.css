@@ -1,0 +1,105 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  background-size: cover;
+  width: 80%;
+  height: 120vh;
+}
+.digital-heading {
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+.center-container {
+  display: flex;
+  align-items: center;
+}
+.image-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 90vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-container {
+  background-color: #ffffff;
+  border-radius: 75px;
+  width: 11vw;
+}
+.timer-heading {
+  text-align: center;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+.timer-paragraph {
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+}
+.button-container {
+  display: flex;
+}
+.start-button-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.start-button {
+  background-color: transparent;
+  border-width: 0px;
+  font-weight: 600;
+  font-size: 22px;
+}
+.pause-or-play {
+  width: 20px;
+}
+.start-paragraph {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 25px;
+}
+.time-limit {
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.reset-button-container {
+  display: flex;
+  align-items: center;
+}
+.reset-button {
+  background-color: transparent;
+  border-width: 0px;
+}
+.time-limit {
+  text-align: center;
+}
+.plus-minus-container {
+  display: flex;
+  align-items: center;
+}
+.minus-button {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 35px;
+  border-width: 0px;
+  background-color: transparent;
+}
+.twenty-five-container {
+  background-color: #00d9f5;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
